@@ -1,27 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="companies.css">
-    <title>IT제 취업해</title>
-</head>
-<body>
-    <div class="container"> 
-        <div class="header">
-            <h1><a>COMPANY</a></h1>
-            <div class="nav">
-                <ul>
-                    <li><a href="home.html">홈</a></li>
-                    <li><a href="introduction.html">소개</a></li>
-                    <li><a href="companies.html">기업별</a></li>
-                    <li><a href="zone.html">지역별</a></li>
-                    <li><a href="contact.html">더보기</a></li>
-                </ul>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT제 취업해-기업별</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="home.html" class="logo"
+        ><img src="images/logo.png" width="200px" height="60px" alt=""
+      /></a>
+      <nav class="navbar">
+        <a href="home.html">홈</a>
+        <a href="introduction.html">소개</a>
+        <a href="companies.html">기업별</a>
+        <a href="contact.html">지역별</a>
+        <a href="cart.html">마이페이지</a>
+      </nav>
+      <div class="icon">
+        <a href="login.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-person-circle"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <section class="products">
+      <div class="products-header">
+        <h3>모든기업</h3>
+        <select class="default">
+          <option value="1">기본</option>
+          <option value="2">최근등록순</option>
+          <option value="3">인기순</option>
+        </select>
+      </div>
+
+      <!-- 기업정보 입력 평점은 잡코리아 참고-->
+      <div class="box-container">
+        <div class="box">
+          <img src="images/samsungSDS.png" alt="" />
+          <h3>삼성에스디에스(주)</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
         </div>
- 
+        <div class="box">
+          <img src="images/lgcns.png" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/doosan.png" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/ibk.jfif" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/hyundai.png" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/kakao.png" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/NDS.jfif" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/ktds.png" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/tsis.png" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/poscoict.png" alt="" />
+          <h3>Product name</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <div class="flex">
+            <a href="details.html" class="btn">view details</a>
+          </div>
+        </div>
+      </div>
 
-</body>
+      <div class="pages">
+        <div class="page">1</div>
+        <div class="page">2</div>
+        <div class="page">3</div>
+        <div class="page">4</div>
+        <div class="page">
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- 수정 완 -->
+    <footer class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>빠른 메뉴</h3>
+          <a href="home.html">홈</a>
+          <a href="introduction.html">소개</a>
+          <a href="companies.html">기업별</a>
+          <a href="contact.html">지역별</a>
+          <a href="cart.html">마이페이지</a>
+        </div>
+        <div class="box">
+          <h3>소셜미디어</h3>
+          <a href="https://www.facebook.com/jobplanetkorea">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">youtube</a>
+        </div>
+        <div class="box">
+          <h3>문의</h3>
+          <a href="#">phone: 0654325678</a>
+          <a href="#">email: omaimaaouane@gmail.com</a>
+          <a href="#">address: morocco, casablanca-567890</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
-
